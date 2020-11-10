@@ -1,15 +1,15 @@
 {
-  "/home/ances/Projects/mern-todolist/client/src/App.js": {
-    "path": "/home/ances/Projects/mern-todolist/client/src/App.js",
+  "/home/ances/Projects/mern-todolist/client/src/component/App.js": {
+    "path": "/home/ances/Projects/mern-todolist/client/src/component/App.js",
     "statementMap": {
       "0": {
         "start": {
-          "line": 5,
-          "column": 2
+          "line": 4,
+          "column": 1
         },
         "end": {
-          "line": 22,
-          "column": 4
+          "line": 4,
+          "column": 33
         }
       }
     },
@@ -18,25 +18,25 @@
         "name": "App",
         "decl": {
           "start": {
-            "line": 4,
+            "line": 3,
             "column": 9
           },
           "end": {
-            "line": 4,
+            "line": 3,
             "column": 12
           }
         },
         "loc": {
           "start": {
-            "line": 4,
+            "line": 3,
             "column": 15
           },
           "end": {
-            "line": 23,
+            "line": 5,
             "column": 1
           }
         },
-        "line": 4
+        "line": 3
       }
     },
     "branchMap": {},
@@ -48,6 +48,6 @@
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "9d490083efd01d049c920f42ad725f6025221903"
+    "hash": "4ddde8fa83330b9adc5750e244d9ea6cb0b7b6ad"
   }
 }
