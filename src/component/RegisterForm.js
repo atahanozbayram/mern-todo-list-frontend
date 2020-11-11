@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function RegisterForm() {
+function RegisterForm(props) {
 	return (
 		<div>
 			<form>
@@ -41,3 +41,5 @@ export default function RegisterForm() {
 		</div>
 	);
 }
+
+export { RegisterForm as default };
