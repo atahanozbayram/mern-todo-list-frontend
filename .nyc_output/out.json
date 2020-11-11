@@ -1,6 +1,6 @@
 {
-  "/home/ances/Projects/mern-todolist/client/src/component/RegisterForm.js": {
-    "path": "/home/ances/Projects/mern-todolist/client/src/component/RegisterForm.js",
+  "/home/ances/Projects/mern-todolist/client/src/component/LoginForm.js": {
+    "path": "/home/ances/Projects/mern-todolist/client/src/component/LoginForm.js",
     "statementMap": {
       "0": {
         "start": {
@@ -8,31 +8,31 @@
           "column": 1
         },
         "end": {
-          "line": 42,
+          "line": 21,
           "column": 3
         }
       }
     },
     "fnMap": {
       "0": {
-        "name": "RegisterForm",
+        "name": "LoginForm",
         "decl": {
           "start": {
             "line": 3,
-            "column": 24
+            "column": 9
           },
           "end": {
             "line": 3,
-            "column": 36
+            "column": 18
           }
         },
         "loc": {
           "start": {
             "line": 3,
-            "column": 39
+            "column": 26
           },
           "end": {
-            "line": 43,
+            "line": 22,
             "column": 1
           }
         },
@@ -48,6 +48,6 @@
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d5a60a45e406eee6149a2ee74c0b6837a146e896"
+    "hash": "f2241775c9fa02982e8e35bffa83687bddebc758"
   }
 }
