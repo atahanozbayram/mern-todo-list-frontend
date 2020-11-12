@@ -1,10 +1,10 @@
 {
-  "/home/ances/Projects/mern-todolist/client/src/component/TodoPage.js": {
-    "path": "/home/ances/Projects/mern-todolist/client/src/component/TodoPage.js",
+  "/home/ances/Projects/mern-todolist/client/src/component/Todo.js": {
+    "path": "/home/ances/Projects/mern-todolist/client/src/component/Todo.js",
     "statementMap": {
       "0": {
         "start": {
-          "line": 4,
+          "line": 5,
           "column": 1
         },
         "end": {
@@ -15,28 +15,28 @@
     },
     "fnMap": {
       "0": {
-        "name": "TodoPage",
+        "name": "Todo",
         "decl": {
           "start": {
-            "line": 3,
+            "line": 4,
             "column": 9
           },
           "end": {
-            "line": 3,
-            "column": 17
+            "line": 4,
+            "column": 13
           }
         },
         "loc": {
           "start": {
-            "line": 3,
-            "column": 20
+            "line": 4,
+            "column": 21
           },
           "end": {
             "line": 18,
             "column": 1
           }
         },
-        "line": 3
+        "line": 4
       }
     },
     "branchMap": {},
@@ -48,6 +48,6 @@
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "835146f138ac8e1c119c0348b704afb1b8b4f017"
+    "hash": "6487d7ccebad44f43731e772ad7003e9cae699ce"
   }
 }
