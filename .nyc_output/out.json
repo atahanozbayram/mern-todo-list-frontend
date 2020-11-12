@@ -1,6 +1,6 @@
 {
-  "/home/ances/Projects/mern-todolist/client/src/component/LoginForm.js": {
-    "path": "/home/ances/Projects/mern-todolist/client/src/component/LoginForm.js",
+  "/home/ances/Projects/mern-todolist/client/src/component/TodoPage.js": {
+    "path": "/home/ances/Projects/mern-todolist/client/src/component/TodoPage.js",
     "statementMap": {
       "0": {
         "start": {
@@ -8,14 +8,14 @@
           "column": 1
         },
         "end": {
-          "line": 21,
+          "line": 17,
           "column": 3
         }
       }
     },
     "fnMap": {
       "0": {
-        "name": "LoginForm",
+        "name": "TodoPage",
         "decl": {
           "start": {
             "line": 3,
@@ -23,16 +23,16 @@
           },
           "end": {
             "line": 3,
-            "column": 18
+            "column": 17
           }
         },
         "loc": {
           "start": {
             "line": 3,
-            "column": 26
+            "column": 20
           },
           "end": {
-            "line": 22,
+            "line": 18,
             "column": 1
           }
         },
@@ -48,6 +48,6 @@
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f2241775c9fa02982e8e35bffa83687bddebc758"
+    "hash": "835146f138ac8e1c119c0348b704afb1b8b4f017"
   }
 }
