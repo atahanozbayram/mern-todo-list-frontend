@@ -1,18 +1,15 @@
 import React from 'react';
+import '../style/reset.css';
+import TodoHeader from './TodoHeader';
+import TodoAdd from './TodoAdd';
+import TodoList from './TodoList';
 
 function TodoPage() {
 	return (
 		<div>
-			<div>Todo List</div>
-			<div>
-				<div>Todo:</div>
-				<div>
-					<input type="text" name="todoContent" />
-				</div>
-				<div>
-					<button>Add</button>
-				</div>
-			</div>
+			<TodoHeader />
+			<TodoAdd />
+			<TodoList />
 		</div>
 	);
 }
