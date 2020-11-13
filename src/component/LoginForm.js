@@ -1,17 +1,29 @@
 import React from 'react';
+import '../style/reset.css';
+import styles from '../style/LoginForm.module.css';
 
 function LoginForm(props) {
 	return (
-		<div>
+		<div className={styles['LoginForm']}>
 			<form>
-				<div>
+				<div className={styles['LoginForm__input-field']}>
+					<input
+						type="email"
+						name="email"
+						placeholder="E-mail"
+						autoComplete="off"
+					/>
 					<label>E-mail:</label>
-					<input type="email" name="email" />
 				</div>
 
-				<div>
+				<div className={styles['LoginForm__input-field']}>
+					<input
+						type="password"
+						name="password"
+						placeholder="Password"
+						autoComplete="off"
+					/>
 					<label>Password:</label>
-					<input type="password" name="password" />
 				</div>
 				<div>
 					<button>Login</button>
