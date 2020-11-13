@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../style/reset.css';
 import styles from '../style/Todo.module.css';
 
@@ -15,5 +16,11 @@ function Todo(props) {
 		</div>
 	);
 }
+
+Todo.propTypes = {
+	id: PropTypes.string.isRequired,
+	text: PropTypes.string.isRequired,
+	completed: PropTypes.bool.isRequired,
+};
 
 export { Todo as default };
