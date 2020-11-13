@@ -1,9 +1,10 @@
 import React from 'react';
 import '../style/reset.css';
+import styles from '../style/TodoHeader.module.css';
 
 function TodoHeader(props) {
 	return (
-		<div>
+		<div className={styles['todoHeader']}>
 			<h2>Todo List</h2>
 		</div>
 	);

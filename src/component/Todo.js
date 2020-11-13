@@ -1,17 +1,16 @@
 import React from 'react';
 import '../style/reset.css';
+import styles from '../style/Todo.module.css';
 
 function Todo(props) {
 	return (
-		<div>
+		<div className={styles['todo']}>
 			<div>
 				<p>{/* todos content*/}</p>
-			</div>
-			<div>
 				<button>COMPLETE{/* complete/uncomplete button */}</button>
-			</div>
-			<div>
-				<button>DELETE{/* button to delete the todo */}</button>
+				<button className={styles['delete']}>
+					DELETE{/* button to delete the todo */}
+				</button>
 			</div>
 		</div>
 	);

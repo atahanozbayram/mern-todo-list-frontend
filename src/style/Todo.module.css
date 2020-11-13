@@ -1,0 +1,45 @@
+.todo {
+	width: 100%;
+	background-color: #ffe3e0;
+	height: 40px;
+}
+
+.todo div {
+	display: grid;
+	grid-template-columns: 1fr max(300px) max(300px);
+	gap: 20px;
+	height: 40px;
+	width: calc(100% - 40px);
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.todo div p {
+	padding: 5px;
+	font-size: 25px;
+}
+
+.todo div .delete {
+	border: none;
+	background-color: #f38375;
+	color: #fff;
+	cursor: pointer;
+}
+
+.buttonCompleted {
+	border: none;
+	background-color: #000;
+	color: #fff;
+}
+
+.buttonUncompleted {
+	border: none;
+	background-color: #f38375;
+	color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+	.todo div {
+		grid-template-columns: 1fr 100px 100px;
+	}
+}

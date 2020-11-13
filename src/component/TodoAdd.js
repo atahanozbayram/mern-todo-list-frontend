@@ -1,20 +1,17 @@
 import React from 'react';
 import '../style/reset.css';
+import styles from '../style/TodoAdd.module.css';
 
 function TodoAdd(props) {
 	return (
-		<div>
-			<div>
+		<div className={styles['todoAdd']}>
+			<form>
 				<div>
-					<label></label>
-				</div>
-				<div>
+					<label>Todo:</label>
 					<input type="text" />
-				</div>
-				<div>
 					<button>ADD</button>
 				</div>
-			</div>
+			</form>
 		</div>
 	);
 }

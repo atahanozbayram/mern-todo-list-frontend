@@ -1,42 +1,42 @@
 {
-  "/home/ances/Projects/mern-todolist/client/src/component/TodoHeader.js": {
-    "path": "/home/ances/Projects/mern-todolist/client/src/component/TodoHeader.js",
+  "/home/ances/Projects/mern-todolist/client/src/component/Todo.js": {
+    "path": "/home/ances/Projects/mern-todolist/client/src/component/Todo.js",
     "statementMap": {
       "0": {
         "start": {
-          "line": 5,
+          "line": 6,
           "column": 1
         },
         "end": {
-          "line": 9,
+          "line": 16,
           "column": 3
         }
       }
     },
     "fnMap": {
       "0": {
-        "name": "TodoHeader",
+        "name": "Todo",
         "decl": {
           "start": {
-            "line": 4,
+            "line": 5,
             "column": 9
           },
           "end": {
-            "line": 4,
-            "column": 19
+            "line": 5,
+            "column": 13
           }
         },
         "loc": {
           "start": {
-            "line": 4,
-            "column": 27
+            "line": 5,
+            "column": 21
           },
           "end": {
-            "line": 10,
+            "line": 17,
             "column": 1
           }
         },
-        "line": 4
+        "line": 5
       }
     },
     "branchMap": {},
@@ -48,159 +48,6 @@
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "317c2a77564f440cc6b24534b236b648b77b9674"
-  },
-  "/home/ances/Projects/mern-todolist/client/src/component/TodoAdd.js": {
-    "path": "/home/ances/Projects/mern-todolist/client/src/component/TodoAdd.js",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 5,
-          "column": 1
-        },
-        "end": {
-          "line": 19,
-          "column": 3
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "TodoAdd",
-        "decl": {
-          "start": {
-            "line": 4,
-            "column": 9
-          },
-          "end": {
-            "line": 4,
-            "column": 16
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 4,
-            "column": 24
-          },
-          "end": {
-            "line": 20,
-            "column": 1
-          }
-        },
-        "line": 4
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 2
-    },
-    "f": {
-      "0": 2
-    },
-    "b": {},
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "0fd5cdf89aa6954f9e1b437e3eb5e199d8447652"
-  },
-  "/home/ances/Projects/mern-todolist/client/src/component/TodoList.js": {
-    "path": "/home/ances/Projects/mern-todolist/client/src/component/TodoList.js",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 5,
-          "column": 1
-        },
-        "end": {
-          "line": 9,
-          "column": 3
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "TodoList",
-        "decl": {
-          "start": {
-            "line": 4,
-            "column": 9
-          },
-          "end": {
-            "line": 4,
-            "column": 17
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 4,
-            "column": 20
-          },
-          "end": {
-            "line": 10,
-            "column": 1
-          }
-        },
-        "line": 4
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 2
-    },
-    "f": {
-      "0": 2
-    },
-    "b": {},
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "2d1c0df0a2ec9e61042b1891c8504ec67250ef2a"
-  },
-  "/home/ances/Projects/mern-todolist/client/src/component/TodoPage.js": {
-    "path": "/home/ances/Projects/mern-todolist/client/src/component/TodoPage.js",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 8,
-          "column": 1
-        },
-        "end": {
-          "line": 14,
-          "column": 3
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "TodoPage",
-        "decl": {
-          "start": {
-            "line": 7,
-            "column": 9
-          },
-          "end": {
-            "line": 7,
-            "column": 17
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 7,
-            "column": 20
-          },
-          "end": {
-            "line": 15,
-            "column": 1
-          }
-        },
-        "line": 7
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 2
-    },
-    "f": {
-      "0": 2
-    },
-    "b": {},
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "06b47dabcd35da3c0dc10920e4ae4584c5db3e94"
+    "hash": "093884b2840c587ba48aef1f9e581266d37ce53e"
   }
 }
