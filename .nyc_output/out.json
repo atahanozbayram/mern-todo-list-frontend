@@ -55,11 +55,11 @@
     "statementMap": {
       "0": {
         "start": {
-          "line": 4,
+          "line": 6,
           "column": 1
         },
         "end": {
-          "line": 21,
+          "line": 33,
           "column": 3
         }
       }
@@ -69,25 +69,25 @@
         "name": "LoginForm",
         "decl": {
           "start": {
-            "line": 3,
+            "line": 5,
             "column": 9
           },
           "end": {
-            "line": 3,
+            "line": 5,
             "column": 18
           }
         },
         "loc": {
           "start": {
-            "line": 3,
+            "line": 5,
             "column": 26
           },
           "end": {
-            "line": 22,
+            "line": 34,
             "column": 1
           }
         },
-        "line": 3
+        "line": 5
       }
     },
     "branchMap": {},
@@ -99,18 +99,18 @@
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f2241775c9fa02982e8e35bffa83687bddebc758"
+    "hash": "b460cb829b5381ceedb2bcfd6a5ad885dea3000b"
   },
   "/home/ances/Projects/mern-todolist/client/src/component/LoginPage.js": {
     "path": "/home/ances/Projects/mern-todolist/client/src/component/LoginPage.js",
     "statementMap": {
       "0": {
         "start": {
-          "line": 7,
+          "line": 8,
           "column": 1
         },
         "end": {
-          "line": 12,
+          "line": 13,
           "column": 3
         }
       }
@@ -120,25 +120,25 @@
         "name": "LoginPage",
         "decl": {
           "start": {
-            "line": 6,
+            "line": 7,
             "column": 24
           },
           "end": {
-            "line": 6,
+            "line": 7,
             "column": 33
           }
         },
         "loc": {
           "start": {
-            "line": 6,
+            "line": 7,
             "column": 36
           },
           "end": {
-            "line": 13,
+            "line": 14,
             "column": 1
           }
         },
-        "line": 6
+        "line": 7
       }
     },
     "branchMap": {},
@@ -150,6 +150,6 @@
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "0d91bf8bb2cf5b4c32a996e7f536fa64d59feed9"
+    "hash": "e3c783e95daa88f5bc85b906b7fb49f0b9d87715"
   }
 }
