@@ -1,0 +1,20 @@
+.RegisterForm {
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.RegisterForm > form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.RegisterForm__input-text {
+	width: 100%;
+}
+
+@media screen and (min-width: 960px) {
+	.RegisterForm {
+		width: 50%;
+	}
+}
