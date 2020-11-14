@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TodoPage from '../../src/component/TodoPage';
-import LoginPage from '../../src/component/LoginPage';
+import RegisterPage from '../../src/component/RegisterPage';
 
 function test() {
 	const wrapper = document.getElementById('root');
-	ReactDOM.render(<LoginPage />, wrapper);
+	ReactDOM.render(<RegisterPage />, wrapper);
 }
 
 test();
