@@ -1,35 +1,20 @@
 .LoginForm {
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.LoginForm > form {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	width: 50%;
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 20px;
 }
 
-.LoginForm__input-field {
-	position: relative;
-}
-
-.LoginForm__input-field > input {
+.LoginForm__input-text {
 	width: 100%;
-	border: 2px solid #fff;
-	outline: 0;
-	font-size: 1.3em;
-	color: #fff;
-	background: transparent;
-	padding: 7px 0;
 }
 
-.LoginForm__input-field > input::placeholder {
-	color: transparent;
-}
-
-.LoginForm__input-field > label {
-	position: absolute;
-	top: 0;
-	left: 7px;
-	transform: translate(5px, +50%);
-	font-size: 1.3em;
+@media screen and (min-width: 960px) {
+	.LoginForm {
+		width: 50%;
+	}
 }

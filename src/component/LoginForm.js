@@ -6,24 +6,27 @@ function LoginForm(props) {
 	return (
 		<div className={styles['LoginForm']}>
 			<form>
-				<div className={styles['LoginForm__input-field']}>
+				<div>
+					<div>
+						<label>E-mail:</label>
+					</div>
 					<input
-						type="email"
+						type="text"
 						name="email"
-						placeholder="E-mail"
+						className={styles['LoginForm__input-text']}
 						autoComplete="off"
 					/>
-					<label>E-mail:</label>
 				</div>
-
-				<div className={styles['LoginForm__input-field']}>
+				<div>
+					<div>
+						<label>Password:</label>
+					</div>
 					<input
 						type="password"
 						name="password"
-						placeholder="Password"
+						className={styles['LoginForm__input-text']}
 						autoComplete="off"
 					/>
-					<label>Password:</label>
 				</div>
 				<div>
 					<button>Login</button>
