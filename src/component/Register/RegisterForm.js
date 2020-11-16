@@ -1,6 +1,6 @@
 import React from 'react';
-import '../style/reset.css';
-import styles from '../style/RegisterForm.module.css';
+import '../../style/reset.css';
+import styles from '../../style/RegisterForm.module.css';
 
 function RegisterForm(props) {
 	return (

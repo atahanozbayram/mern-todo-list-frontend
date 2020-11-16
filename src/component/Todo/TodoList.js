@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/reset.css';
+import '../../style/reset.css';
 
 function TodoList() {
 	return (

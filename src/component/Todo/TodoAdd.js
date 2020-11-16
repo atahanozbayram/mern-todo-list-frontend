@@ -1,6 +1,6 @@
 import React from 'react';
-import '../style/reset.css';
-import styles from '../style/TodoAdd.module.css';
+import '../../style/reset.css';
+import styles from '../../style/TodoAdd.module.css';
 
 function TodoAdd(props) {
 	return (

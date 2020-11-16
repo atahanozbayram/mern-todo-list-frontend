@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/reset.css';
+import '../../style/reset.css';
 import TodoHeader from './TodoHeader';
 import TodoAdd from './TodoAdd';
 import TodoList from './TodoList';

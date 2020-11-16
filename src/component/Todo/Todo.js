@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../style/reset.css';
-import styles from '../style/Todo.module.css';
+import '../../style/reset.css';
+import styles from '../../style/Todo.module.css';
 
 function Todo(props) {
 	return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import '../style/reset.css';
-import generalStyles from '../style/general.module.css';
+import '../../style/reset.css';
+import generalStyles from '../../style/general.module.css';
 
 function LoginHeader() {
 	return (

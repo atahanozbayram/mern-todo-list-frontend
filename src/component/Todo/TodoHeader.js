@@ -1,7 +1,7 @@
 import React from 'react';
-import '../style/reset.css';
-import styles from '../style/TodoHeader.module.css';
-import generalStyles from '../style/general.module.css';
+import '../../style/reset.css';
+import styles from '../../style/TodoHeader.module.css';
+import generalStyles from '../../style/general.module.css';
 
 function TodoHeader(props) {
 	return (
